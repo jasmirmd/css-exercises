@@ -1,0 +1,23 @@
+body {
+  /* I don't have the DejaVu Sans font */
+  font-family: Verdana, sans-serif;
+}
+
+.bg-pink {
+  background-color: #FFA7A7;
+}
+
+.cooler {
+  font-size: 24px;
+}
+
+#first-id {
+  color: #0000FF;
+  font-size: 36px;
+}
+
+#second-id {
+  background-color: #80FF80;
+  font-size: 24px;
+  font-weight: 700;
+}
