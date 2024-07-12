@@ -5,6 +5,14 @@ html {
 }
 
 .container {
+  display: grid;
+  grid-template-areas: 
+  "head head head head"
+  "side nav nav nav"
+  "side artc artc artc"
+  "foo foo foo foo"
+  ;
+  gap: 15px;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -22,22 +30,27 @@ html {
 
 .header {
   background-color: #006157;
+  grid-area: head;
 }
 
 .sidebar {
   background-color: #005B94;
+  grid-area: side;
 }
 
 .nav {
   background-color: #642cde;
+  grid-area: nav;
 }
 
 .article {
   background-color: #7E1DC3;
+  grid-area: artc;
 }
 
 .footer {
   background-color: #393f4d;
+  grid-area: foo;
 }
 
 .article p {
